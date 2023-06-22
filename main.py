@@ -7,6 +7,10 @@ def main():
    ##################################################
    # Code your program here
    ##################################################
+    regular_wage = reg_hours * reg_rate
+    overtime = workhours - reg_hours
+    overtime_wage = overtime * ov_rate
+    total_wage = overtime_wage + regular_wage
     # overtime = workhours - reg_hours
     # overtime_wage = overtime * ov_rate
     # regular_wage = reg_hours * reg_rate
